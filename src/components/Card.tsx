@@ -22,14 +22,14 @@ export default function Card(){
 
                 {/* Top Section*/}
                 <div className="flex justify-between items-center">
-                    <div className="flex justify-center items-center gap-[0.5rem]">
-                        <img src={info.pfp} alt={info.username} className="w-[50px] rounded-full"/>
+                    <div className="flex justify-center items-center gap-2">
+                        <img src={info.pfp} alt={info.username} className="w-12.5 rounded-full"/>
                         <h1 className="font-semibold">{info.username}</h1>
                         <p className="text-sm">&bull; 1d</p>
                     </div>
 
                     <div>
-                        <button className="p-[0.3rem] font-semibold bg-neutral-300 rounded-md text-sm w-[70px] cursor-pointer">Follow</button>
+                        <button className="p-[0.3rem] font-semibold bg-neutral-300 rounded-md text-sm w-17.5 cursor-pointer">Follow</button>
                         {/* Ellipis coming soon*/}
                     </div>
                </div>
