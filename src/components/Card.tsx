@@ -29,7 +29,7 @@ export default function Card(){
                     </div>
 
                     <div>
-                        <button className="p-[0.3rem] font-semibold bg-neutral-300 rounded-md text-sm w-17.5 cursor-pointer">Follow</button>
+                        <button className="p-[0.3rem] font-semibold bg-neutral-300 hover:bg-neutral-200  transition ease-in-out duration:700 rounded-md text-sm w-17.5 cursor-pointer">Follow</button>
                         {/* Ellipis coming soon*/}
                     </div>
                </div>
@@ -50,21 +50,21 @@ export default function Card(){
                 <div className="flex justify-between w-125">
                     <div className="flex items-center gap-3">
                         <img src="src/assets/heart.png" alt="like" 
-                        className="w-6.25 cursor-pointer"
+                        className="w-6.25 cursor-pointer transform ease-in-out duration-300 hover:w-7"
                         />
 
                         <img src="/src/assets/chat.png" alt="comment" 
-                        className="w-5.5 cursor-pointer"
+                        className="w-5.5 hover:w-6.25 cursor-pointer transform ease-in-out duration-300"
                         />
 
                         <img src="src/assets/send.png" alt="share" 
-                        className="w-6 cursor-pointer"
+                        className="w-6 cursor-pointer hover:w-6.25 transform ease-in-out duration-300"
                         />
                     </div>
 
                     <div>
                         <img src="src/assets/save-instagram.png" alt="save" 
-                        className="w-6 cursor-pointer"
+                        className="w-6 cursor-pointer hover:w-6.25 transform ease-in-out duration-300"
                         />
                     </div>
                 </div>
